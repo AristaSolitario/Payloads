@@ -1,0 +1,22 @@
+Msfvenom ile en çok kullanılan payload’lar ve formatları aşağıdaki gibi listelenebilir.
+
+Linux Payload (-p): linux/x86/meterpreter/reverse_tcp
+Linux Format (-f): elf
+Windows Payload (-p): windows/meterpreter/reverse_tcp
+Windows Format (-f): exe
+MAC Payload (-p): osx/x86/shell_reverse_tcp
+MAC Format (-f): macho
+PHP Payload (-p): php/meterpreter_reverse_tcp
+PHP Format (-f): php
+ASP Payload (-p): windows/meterpreter/reverse_tcp
+ASP Format (-f): asp
+JSP Payload (-p): java/jsp_shell_reverse_tcp
+JSP Format (-f): raw
+WAR Payload (-p): java/jsp_shell_reverse_tcp
+WAR Format (-f): war
+Python Payload (-p): cmd/unix/reverse_python
+Python Format (-f): raw
+Bash Payload (-p): cmd/unix/reverse_bash
+Bash Format (-f): raw
+Perl Payload (-p): cmd/unix/reverse_perl
+Perl Format (-f): raw
